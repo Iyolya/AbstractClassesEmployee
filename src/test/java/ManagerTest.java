@@ -47,6 +47,8 @@ public class ManagerTest {
         assertEquals(1, manager1.payBonus(), 0.01);
 
     }
+
+
 }
 
 
