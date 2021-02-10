@@ -17,7 +17,9 @@ public abstract class Employee {
     }
 
     public void setName(String name){
-        this.name = name;
+        if(!name.isEmpty()) {
+            this.name = name;
+        }
     }
 
     public String getNI() {

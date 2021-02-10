@@ -52,4 +52,9 @@ public class DirectorTest {
     public void hasBudget(){
         assertEquals(60000000000000.00, director.getBudget(), 0.01);
     }
+    @Test
+    public void nameCannotBeNull(){
+        director.setName("");
+        assertEquals("Andy Warhol", director.getName());
+    }
 }
