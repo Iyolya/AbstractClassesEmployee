@@ -33,11 +33,12 @@ public class ManagerTest {
         assertEquals("HR", manager.getDeptName());
     }
 
-//    @Test
-//    public void raiseSalary(){
-//
-//
-//    }
+    @Test
+    public void raiseSalary(){
+        manager.raiseSalary(1.57);
+        assertEquals(10203937478495944895776.00, manager.getSalary(), 0.01);
+
+    }
 }
 
 
